@@ -1,0 +1,215 @@
+/**
+* [START] - SECCION DE HABILIDADES (SKILLS)
+* --------------------------------------------------------------------- *
+*/
+
+.habilidades {
+    background-color: #040b14;
+    margin: 0px 0px 0px 300px;
+    color: #ffffff;
+    padding: 50px 50px 0px 50px;
+}
+
+.habilidades .skills-titulo h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 50px 20px 30px 0px;
+}
+
+.habilidades .skills-titulo h2::after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 3px;
+    margin-top: 10px;
+    background-color: #05a7a7;
+}
+
+.habilidades .skills-titulo p {
+    text-align: left;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+
+.habilidades .skills-progreso .col-md-12 {
+    position: relative;
+}
+
+.habilidades .skills-progreso .col-md-12 h2 {
+    font-size: 25px;
+}
+
+.habilidades .skills-progreso .col-md-12 .edit-skills {
+    position: absolute;
+    right: 0;
+    margin: 10px 12px 0px 0px;
+    font-size: 15px;
+}
+
+.habilidades .skills-progreso .col-md-12 .add {
+    position: relative;
+}
+
+.habilidades .skills-progreso .col-md-12 .add .botones-edit-skills {
+    position: absolute;
+    font-size: 12px;
+    right: 0;
+    margin: 22px 0px 0px 0px;
+}
+
+.habilidades .skills-progreso .col-md-12 .add .botones-edit-skills span > i {
+    margin-left: 10px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.habilidades .skills-progreso .col-md-12 .add .botones-edit-skills span > i:hover {
+    color: #ff0055;
+    transition: 0.6s;
+}
+
+.habilidades .skills-progreso .progressbar-title{
+    color: #ffffff;
+    font-size:13px;
+    margin:5px 0 5px;
+}
+
+
+.habilidades .skills-progreso .progress{
+    height: 15px;
+    box-shadow: none;
+    line-height: 35px;
+    background:#d6d6d6;
+}
+
+
+.habilidades .skills-progreso .progressbar-value{
+    float: right;
+    display:block;
+}
+
+
+@-webkit-keyframes progress{
+    0% { width: 0%;}
+}
+@keyframes progress{
+    0% { width:0%; }
+}
+
+/**
+* [FIN] - SECCION DE HABILIDADES (SKILLS)
+* --------------------------------------------------------------------- *
+*/
+
+
+
+/**
+* [START] - ICONOS DE LA SECCION DE LA HABILIDADES   
+* --------------------------------------------------------------------- *
+*/
+
+
+.habilidades .skills-progreso .skill-icon {
+    margin: 10px 0px -10px 0px;
+}
+
+/*
+------------------------- FRONT-END -------------------------
+*/
+
+.habilidades .skills-progreso .skill-icon .html {
+    font-size: 20px;
+    color: #ff6600;
+}
+
+.habilidades .skills-progreso .skill-icon .css {
+    font-size: 20px;
+    color: #264de4;
+}
+
+.habilidades .skills-progreso .skill-icon .javascript {
+    font-size: 20px;
+    color: #ffdd00;
+}
+
+.habilidades .skills-progreso .skill-icon .bootstrap {
+    font-size: 20px;
+    color: #563d7c;
+}
+
+.habilidades .skills-progreso .skill-icon .angular {
+    font-size: 20px;
+    color: #dd1b16;
+}
+
+/*
+------------------------- BACK-END -------------------------
+*/
+
+.habilidades .skills-progreso .skill-icon .mysql {
+    font-size: 20px;
+    color: #00758F;
+}
+
+
+/*
+------------------------- SOCIALES -------------------------
+*/
+
+
+/**
+* [FIN] - ICONOS DE LA SECCION DE LA HABILIDADES   
+* --------------------------------------------------------------------- *
+*/
+
+
+
+/**
+* [START] - BARRAS DE PROGRESO DE LA SECCION DE LA HABILIDADES
+* --------------------------------------------------------------------- *
+*/
+
+/*
+------------------------- FRONT-END -------------------------
+*/
+
+.habilidades .skills-progreso .progress .html-color {
+        background-color: #ff6600;
+    }
+
+.habilidades .skills-progreso .progress .css-color {
+    background-color: #264de4;
+}
+
+.habilidades .skills-progreso .progress .javascript-color {
+    background-color: #ffdd00;
+}
+
+.habilidades .skills-progreso .progress .bootstrap-color {
+    background-color: #563d7c;
+}
+
+.habilidades .skills-progreso .progress .angular-color {
+    background-color: #dd1b16;
+}
+
+/*
+------------------------- BACK-END -------------------------
+*/
+
+.habilidades .skills-progreso .progress .mysql-color {
+    background-color: #00758F;
+}
+
+
+
+/*
+------------------------- SOCIALES -------------------------
+*/
+
+/**
+* [FIN] - BARRAS DE PROGRESO DE LA SECCION DE LA HABILIDADES
+* --------------------------------------------------------------------- *
+*/

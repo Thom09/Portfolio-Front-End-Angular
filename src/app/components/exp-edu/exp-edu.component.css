@@ -1,0 +1,90 @@
+/**
+* [START] - SECCION DE EDUCACION Y EXPERIENCIA (EDU-EXP)
+* --------------------------------------------------------------------- *
+*/
+
+.edu-exp {
+    background-color: #040b14;
+    margin: 0px 0px 0px 300px;
+    color: #ffffff;
+    padding: 50px 50px 0px 50px;
+}
+
+
+.edu-exp .col-lg-6 {
+    position: relative;
+}
+
+.edu-exp .col-lg-6 .edit-edu-exp {
+    position: absolute;
+    right: 0;
+    margin: 12px 20px 0px 0px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.edu-exp .col-lg-6 .edit-edu-exp:hover {
+    color: #ff0055;
+    transition: 0.6s;
+}
+
+.edu-exp .col-lg-6 h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.edu-exp .educacion-exp {
+    position: relative;
+}
+
+
+.edu-exp .educacion-exp .botones-edit {
+    position: absolute;
+    right: 0;
+    margin: 2px 10px 0px 0px;
+    font-size: 12px;
+}
+
+.edu-exp .educacion-exp .botones-edit span > i {
+    margin-left: 10px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.edu-exp .educacion-exp .botones-edit span > i:hover {
+    color: #ff0055;
+    transition: 0.6s;
+}
+
+.edu-exp .col-lg-6 .educacion-exp h3 {
+    font-size: 16px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.edu-exp .col-lg-6 .educacion-exp h4 {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.edu-exp .col-lg-6 .educacion-exp h5 {
+    font-size: 13px;
+    font-style: italic;
+    font-weight: lighter;
+    display: inline-block;
+    color: #b3b3b3;
+}
+
+.edu-exp .col-lg-6 .educacion-exp p {
+    margin-top: 20px;
+    line-height: 20px;
+    font-size: 15px;
+
+}
+
+/**
+* [FIN] - SECCION DE EDUCACION Y EXPERIENCIA (EDU-EXP)
+* --------------------------------------------------------------------- *
+*/

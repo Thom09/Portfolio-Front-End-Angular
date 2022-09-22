@@ -1,0 +1,231 @@
+/**
+* [START] - PARTE DE LA INFO (INFO)
+* --------------------------------------------------------------------- *
+*/
+
+.main .info {
+    height: 625px;
+    width: 300px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: #040b14;
+    color: #ffffff;
+}
+
+.main .info .logo {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 25px;
+}
+
+.main .info .logo img {
+    height: 40px;
+    width: 60px;
+}
+
+.main .info .logo h2 {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+/**
+* [FIN] - PARTE DE LA INFO (INFO)
+* --------------------------------------------------------------------- *
+*/
+
+
+
+/**
+* [START] - PARTE DEL PERFIL (PERFIL)
+* --------------------------------------------------------------------- *
+*/
+
+.main .perfil {
+    width: 250px;
+    margin: 0px 25px;
+    text-align: center;
+}
+
+.main .perfil img {
+    height: 120px;
+    width: 120px;
+    margin: 30px 0px;
+    border: 8px solid #1c2a3d;
+    border-radius: 100%;
+}
+
+.main .perfil h1 {
+    font-size: 25px;
+}
+
+.main .perfil p {
+    margin-top: -10px;
+}
+
+.main .perfil .edit-perfil {
+    position: absolute;
+    margin-top: 132px;
+    cursor: pointer;
+}
+
+.main .perfil .edit-perfil:hover {
+    color: #1c2a3d;
+    transition: 0.3s;
+}
+
+/**
+* [FIN] - PARTE DEL PERFIL (PERFIL)
+* --------------------------------------------------------------------- *
+*/
+
+
+
+/**
+* [START] - PARTE DE LAS REDES (REDES)
+* --------------------------------------------------------------------- *
+*/
+
+.main .info .social {
+    width: 250px;
+    margin: 0px 25px;
+    text-align: center;
+}
+
+.main .info .social i {
+    margin: 0px 5px;
+    padding: 7px 0px;
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    color: #ffffff;
+    background-color: #1c2a3d;
+    border-radius: 50%;
+}
+
+.main .info .social i:hover {
+    color: #646464;
+    transition: 0.3s;
+}
+
+/**
+* [FIN] - PARTE DE LAS REDES (REDES)
+* --------------------------------------------------------------------- *
+*/
+
+
+
+/**
+* [START] - PARTE DE LA BARRA DE NAVEGACION (NAV-BAR)
+* --------------------------------------------------------------------- *
+*/
+
+.main .nav-bar {
+    width: 250px;
+    margin: 0px 25px;
+}
+
+.main .nav-bar .nav-list {
+    list-style: none;
+    margin: 20px 0px 0px 13px;
+}
+
+.main .nav-bar .nav-list i {
+    font-size: 25px;
+    color: #1c2a3d;
+    margin: 0px 10px 10px 0px;
+}
+
+.main .nav-bar .nav-list a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.main .nav-bar .nav-list a:hover {
+    color: #557cb3;
+    transition: 0.6s;
+}
+
+.main .nav-bar .nav-list a:hover i {
+    color: #ff0055;
+    transition: 0.6s;
+    margin-left: -10px;
+}
+
+/**
+* [FIN] - PARTE DE LA BARRA DE NAVEGACION (NAV-BAR)
+* --------------------------------------------------------------------- *
+*/
+
+/**
+* [START] - BOTON DE LOGIN (LOGIN)
+* --------------------------------------------------------------------- *
+*/
+.main .info .btn-success {
+    background-color: #173b6c;
+    border: none;
+    margin: 20px 0px 0px 70px;
+}
+
+.main .info .btn-success:hover {
+    background-color: #264de4;
+    transition: 0.6s;
+}
+
+/**
+* [FIN] - BOTON DE LOGIN (LOGIN)
+* --------------------------------------------------------------------- *
+*/
+
+
+
+/**
+* [START] - PARTE DEL BANNER (BANNER)
+* --------------------------------------------------------------------- *
+*/
+
+.main .banner {
+    position: relative;
+    height: 625px;
+    margin-left: 300px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/img/bg-header.jpg);
+    background-size: cover;
+}
+
+.main .banner .banner-titulo {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: #bebebe;
+}
+
+.main .banner .banner-titulo h1 {
+    font-size: 50px;
+}
+
+.main .banner .banner-titulo p {
+    font-size: 30px;
+}
+
+.main .banner .edit-banner {
+    color: #ffffff;
+    position: absolute;
+    right: 0%;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.main .banner .edit-banner:hover {
+    color: #1c2a3d;
+    transition: 0.3s;
+}
+
+/**
+* [FIN] - PARTE DEL BANNER (BANNER)
+* --------------------------------------------------------------------- *
+*/

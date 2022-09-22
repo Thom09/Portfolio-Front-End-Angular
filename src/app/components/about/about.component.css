@@ -1,0 +1,58 @@
+/**
+* [START] - SECCION SOBRE MI (ACERCA DE)
+* --------------------------------------------------------------------- *
+*/
+
+.sobremi {
+    background-color: #040b14;
+    margin: 0px 0px 0px 300px;
+    color: #ffffff;
+    padding: 0px 50px 0px 50px;
+}
+
+.sobremi .sobremi-titulo {
+    position: relative;
+}
+
+.sobremi .sobremi-titulo h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 100px 20px 10px 0px;
+}
+
+.sobremi .sobremi-titulo h2::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    margin-top: 10px;
+    background-color: #05a7a7;
+}
+
+.sobremi .sobremi-titulo p {
+    text-align: left;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.sobremi .sobremi-titulo .edit-sobre {
+    font-size: 12px;
+    color: #ffffff;
+    position: absolute;
+    right: 0;
+    top: 83px;
+    margin: 25px;
+    cursor: pointer;
+}
+
+.sobremi .sobremi-titulo .edit-sobre:hover {
+    color: #ff0055;
+    transition: 0.6s;
+}
+
+
+/**
+* [FIN] - SECCION SOBRE MI (ACERCA DE)
+* --------------------------------------------------------------------- *
+*/
